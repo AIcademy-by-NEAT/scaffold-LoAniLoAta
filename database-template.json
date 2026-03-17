@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-03-17",
+    "totalQuestions": 65,
+    "totalYesReasons": 60,
+    "totalNoReasons": 60,
+    "description": "Team Vibe Checker Question & Reason Database"
+  },
+  "questions": {
+    "personality": [
+      {
+        "id": "q1",
+        "text": "If you were a fruit, which would you be?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q2",
+        "text": "Are you a morning person or night owl?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q3",
+        "text": "Do you organize your bookshelf by color or by title?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q4",
+        "text": "Introvert or extrovert at parties?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q5",
+        "text": "Do you plan everything or just wing it?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q6",
+        "text": "Coffee or tea person?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q7",
+        "text": "Do you prefer working alone or in teams?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q8",
+        "text": "Optimist or pessimist by default?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q9",
+        "text": "Do you laugh at your own jokes?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q10",
+        "text": "Window seat or aisle seat on planes?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q11",
+        "text": "Do you remember people's birthdays?",
+        "category": "personality",
+        "type": "choice"
+      },
+      {
+        "id": "q12",
+        "text": "Are you punctual or fashionably late?",
+        "category": "personality",
+        "type": "choice"
+      }
+    ],
+    "workStyle": [
+      {
+        "id": "q13",
+        "text": "Meetings: camera on or off?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q14",
+        "text": "Deadline approach: plan ahead or panic last-minute?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q15",
+        "text": "Do you prefer email or Slack communication?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q16",
+        "text": "How many monitors do you use for work?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q17",
+        "text": "Messy desk or pristine workspace?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q18",
+        "text": "Do you take breaks during work?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q19",
+        "text": "Code review: constructive or brutal honesty?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q20",
+        "text": "Do you use dark mode or light mode?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q21",
+        "text": "Notebooks: digital or paper?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q22",
+        "text": "Do you rename variables sensibly?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q23",
+        "text": "Coffee/energy drinks during coding marathons?",
+        "category": "workStyle",
+        "type": "choice"
+      },
+      {
+        "id": "q24",
+        "text": "Do you debug with print statements or a debugger?",
+        "category": "workStyle",
+        "type": "choice"
+      }
+    ],
+    "lifeChoices": [
+      {
+        "id": "q25",
+        "text": "Pineapple on pizza: yes or no?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q26",
+        "text": "How do you eat cereal: milk first or cereal first?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q27",
+        "text": "Folding or rolling socks?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q28",
+        "text": "Do you alphabetize your spice rack?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q29",
+        "text": "Toilet paper: over or under?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q30",
+        "text": "Do you eat the pizza crust?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q31",
+        "text": "Pick a movie genre: comedy, drama, or horror?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q32",
+        "text": "Do you rewatch your favorite shows?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q33",
+        "text": "Netflix or theater for movies?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q34",
+        "text": "Do you read the book or watch the movie first?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q35",
+        "text": "Cake or pie?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q36",
+        "text": "Hot sauce: maximum spice or mild?",
+        "category": "lifeChoices",
+        "type": "choice"
+      },
+      {
+        "id": "q37",
+        "text": "Do you separate your laundry by color?",
+        "category": "lifeChoices",
+        "type": "choice"
+      }
+    ],
+    "quirks": [
+      {
+        "id": "q38",
+        "text": "Do you name your houseplants?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q39",
+        "text": "Do you talk to yourself while coding?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q40",
+        "text": "Do you have a lucky object?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q41",
+        "text": "Do you check under the bed before sleeping?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q42",
+        "text": "Do you read book reviews before reading?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q43",
+        "text": "Do you organize your browser tabs?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q44",
+        "text": "Do you keep browser history?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q45",
+        "text": "Do you sing in the shower?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q46",
+        "text": "Do you organize your Spotify playlists?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q47",
+        "text": "Do you label your kitchen containers?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q48",
+        "text": "Do you have a morning routine?",
+        "category": "quirks",
+        "type": "choice"
+      },
+      {
+        "id": "q49",
+        "text": "Do you collect anything?",
+        "category": "quirks",
+        "type": "choice"
+      }
+    ],
+    "weirdStuff": [
+      {
+        "id": "q50",
+        "text": "If you were a superhero, would your power be visible or invisible?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q51",
+        "text": "Would you rather have the ability to fly or be invisible?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q52",
+        "text": "If you could teleport, would you use it for work?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q53",
+        "text": "Do you believe in ghosts?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q54",
+        "text": "Would you rather fight one horse-sized duck or 100 duck-sized horses?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q55",
+        "text": "If you could have any accent, which would it be?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q56",
+        "text": "Do you think aliens exist?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q57",
+        "text": "Would you time travel to the past or future?",
+        "category": "weirdStuff",
+        "type": "choice"
+      },
+      {
+        "id": "q58",
+        "text": "Do you think we're living in a simulation?",
+        "category": "weirdStuff",
+        "type": "choice"
+      }
+    ],
+    "workEnvironment": [
+      {
+        "id": "q59",
+        "text": "Noise-canceling headphones: always, sometimes, never?",
+        "category": "workEnvironment",
+        "type": "choice"
+      },
+      {
+        "id": "q60",
+        "text": "Standing desk or sitting?",
+        "category": "workEnvironment",
+        "type": "choice"
+      },
+      {
+        "id": "q61",
+        "text": "Do you wear shoes while working from home?",
+        "category": "workEnvironment",
+        "type": "choice"
+      },
+      {
+        "id": "q62",
+        "text": "How many coffee/tea breaks per day?",
+        "category": "workEnvironment",
+        "type": "choice"
+      },
+      {
+        "id": "q63",
+        "text": "Do you snack while working?",
+        "category": "workEnvironment",
+        "type": "choice"
+      },
+      {
+        "id": "q64",
+        "text": "Would you work from a coffee shop?",
+        "category": "workEnvironment",
+        "type": "choice"
+      },
+      {
+        "id": "q65",
+        "text": "Collaborate in silence or with background music?",
+        "category": "workEnvironment",
+        "type": "choice"
+      }
+    ]
+  },
+  "reasons": {
+    "yes": [
+      { "id": "yes1", "text": "Your synergy oscillation coefficient is off the charts!" },
+      { "id": "yes2", "text": "Quantum probability indicates cosmic soulmate status." },
+      { "id": "yes3", "text": "Your tea preference harmonization is flawless." },
+      { "id": "yes4", "text": "Work-style coherence index detected: near-perfect alignment." },
+      { "id": "yes5", "text": "Compatibility wave patterns are in harmony." },
+      { "id": "yes6", "text": "Your preference oscillation frequencies match beautifully." },
+      { "id": "yes7", "text": "Cosmic alignment suggests you're a power duo." },
+      { "id": "yes8", "text": "Synergy metrics indicate supernatural compatibility." },
+      { "id": "yes9", "text": "Your vibes are mutually beneficial and energetically positive." },
+      { "id": "yes10", "text": "Work style friction coefficient: ZERO. You're golden." },
+      { "id": "yes11", "text": "Quantum entanglement of preferences confirmed." },
+      { "id": "yes12", "text": "Your partnership potential is astronomical." },
+      { "id": "yes13", "text": "The universe is literally telling us you should team up." },
+      { "id": "yes14", "text": "Your work styles are in perfect harmony." },
+      { "id": "yes15", "text": "Communication flow prediction: EXCELLENT." },
+      { "id": "yes16", "text": "You have complementary strengths. Science confirmed it." },
+      { "id": "yes17", "text": "Collaboration probability: 99.9%. Almost certain success." },
+      { "id": "yes18", "text": "Your teamwork resonance frequency is exceptional." },
+      { "id": "yes19", "text": "Personality compatibility: MAXED OUT." },
+      { "id": "yes20", "text": "The algorithm has spoken. You're basically soulmates." },
+      { "id": "yes21", "text": "Your work rhythms are synchronized like clockwork." },
+      { "id": "yes22", "text": "Conflict resolution potential: surprisingly high." },
+      { "id": "yes23", "text": "You bring out each other's best qualities (statistically)." },
+      { "id": "yes24", "text": "Your productivity vector is pointing the same direction." },
+      { "id": "yes25", "text": "The stars have aligned. Go forth and build things." },
+      { "id": "yes26", "text": "Your mutual interests overlap in unexpected ways." },
+      { "id": "yes27", "text": "This partnership would defy quantum mechanics if it fails." },
+      { "id": "yes28", "text": "You're basically a cheat code for project success." },
+      { "id": "yes29", "text": "Your combined energy output: UNSTOPPABLE." },
+      { "id": "yes30", "text": "The data suggests you finish each other's sentences." },
+      { "id": "yes31", "text": "Your compatibility aura is blindingly bright." },
+      { "id": "yes32", "text": "This is the kind of partnership stories are written about." },
+      { "id": "yes33", "text": "Your work styles are different but complementary." },
+      { "id": "yes34", "text": "You're like two puzzle pieces that fit perfectly." },
+      { "id": "yes35", "text": "The algorithm is 87% confident you'll change the world together." },
+      { "id": "yes36", "text": "Your teamwork coefficient just broke the scale (in a good way)." },
+      { "id": "yes37", "text": "You have the kind of chemistry that makes great things happen." },
+      { "id": "yes38", "text": "The universe placed you two in the same room for a reason." },
+      { "id": "yes39", "text": "Your compatibility score: so high, we had to double-check it." },
+      { "id": "yes40", "text": "Honestly, we're surprised the server didn't crash from YES-ing too hard." },
+      { "id": "yes41", "text": "Your personality matrices just synchronized perfectly!" },
+      { "id": "yes42", "text": "Harmonic resonance detected at maximum capacity." },
+      { "id": "yes43", "text": "The algorithm ran backward and still said YES." },
+      { "id": "yes44", "text": "Your work ethics are suspiciously aligned." },
+      { "id": "yes45", "text": "You'd make a killer comedy duo if this doesn't work out." },
+      { "id": "yes46", "text": "Compatibility levels: OVER 9000!" },
+      { "id": "yes47", "text": "Your breakfast preferences suggest you're meant to be." },
+      { "id": "yes48", "text": "The quantum foam is literally vibrating with approval." },
+      { "id": "yes49", "text": "Two-person dream team protocol: ACTIVATED." },
+      { "id": "yes50", "text": "Your collaborative energy is basically perpetual motion." },
+      { "id": "yes51", "text": "The database just blushed. That's how compatible you are." },
+      { "id": "yes52", "text": "You have a 'begin the friendship' aura." },
+      { "id": "yes53", "text": "Your work-life balance philosophies are kissing." },
+      { "id": "yes54", "text": "This pairing would make a TED Talk." },
+      { "id": "yes55", "text": "You're not just compatible—you're cosmically destined." },
+      { "id": "yes56", "text": "The algorithm suspects you might already be best friends." },
+      { "id": "yes57", "text": "Your productivity forecast: LEGENDARY." },
+      { "id": "yes58", "text": "Communication? You won't even need words." },
+      { "id": "yes59", "text": "Your combined problem-solving power: unstoppable force." },
+      { "id": "yes60", "text": "We've run this 1,000 times. Every single time: YES." }
+    ],
+    "no": [
+      { "id": "no1", "text": "Fundamental incompatibility in fruit-selection entropy detected." },
+      { "id": "no2", "text": "Your work-style oscillation waves are 180 degrees out of phase." },
+      { "id": "no3", "text": "One prefers order. One prefers chaos. This is unrecoverable." },
+      { "id": "no4", "text": "Quantum preference misalignment beyond repair." },
+      { "id": "no5", "text": "Your communication styles are like two ships passing in the night." },
+      { "id": "no6", "text": "Synergy oscillation coefficient: critically low." },
+      { "id": "no7", "text": "The algorithm predicts constant misunderstandings." },
+      { "id": "no8", "text": "Your vibes are... not complementary. At all." },
+      { "id": "no9", "text": "Work environment preferences: incompatible." },
+      { "id": "no10", "text": "Collaboration potential: DOA (dead on arrival)." },
+      { "id": "no11", "text": "The universe suggests you find different teammates." },
+      { "id": "no12", "text": "Your personality types are adversarial by default." },
+      { "id": "no13", "text": "Conflict resolution potential: essentially zero." },
+      { "id": "no14", "text": "You would spend more time arguing than coding." },
+      { "id": "no15", "text": "Your work speeds are too different. You'll drive each other nuts." },
+      { "id": "no16", "text": "Tea preference harmonization: FAILED." },
+      { "id": "no17", "text": "The algorithm ran 10,000 simulations. Every single one ended in chaos." },
+      { "id": "no18", "text": "You're like magnets, but pointing the same direction. You'd repel." },
+      { "id": "no19", "text": "Your schedule preferences create a temporal paradox of incompatibility." },
+      { "id": "no20", "text": "This partnership would violate the laws of thermodynamics." },
+      { "id": "no21", "text": "The data strongly suggests you'd be at each other's throats." },
+      { "id": "no22", "text": "Your communication styles: a match that would burn the building down." },
+      { "id": "no23", "text": "Productivity prediction: NEGATIVE. You'd somehow lose momentum." },
+      { "id": "no24", "text": "This pairing would require negotiating every single decision." },
+      { "id": "no25", "text": "Your work habits are like oil and water. Plus some acid." },
+      { "id": "no26", "text": "The algorithm had an error. Then rechecked. Still a hard no." },
+      { "id": "no27", "text": "You're incompatible in ways we didn't even think were possible." },
+      { "id": "no28", "text": "One of you would definitely slow the other down." },
+      { "id": "no29", "text": "Your energy levels are out of sync. Constant frustration incoming." },
+      { "id": "no30", "text": "The universe is literally telling us to keep you apart." },
+      { "id": "no31", "text": "Your collaboration coefficient just went into the negatives." },
+      { "id": "no32", "text": "This is the kind of partnership that ends friendships." },
+      { "id": "no33", "text": "You'd spend 80% of time explaining yourself to each other." },
+      { "id": "no34", "text": "Compatibility score: our database doesn't go that low." },
+      { "id": "no35", "text": "The algorithm suggests you should work on literally anything else." },
+      { "id": "no36", "text": "Your work styles would create more problems than they solve." },
+      { "id": "no37", "text": "Teamwork resonance frequency: broken glass at full volume." },
+      { "id": "no38", "text": "The data says: find different teammates. Seriously." },
+      { "id": "no39", "text": "This partnership would be a cautionary tale." },
+      { "id": "no40", "text": "The server is literally begging us not to pair you two. We can feel it." },
+      { "id": "no41", "text": "Your personality profiles just filed for divorce." },
+      { "id": "no42", "text": "Dissonance levels: maximum pain detected." },
+      { "id": "no43", "text": "The algorithm quit three times during the analysis." },
+      { "id": "no44", "text": "Your work ethics are aggressively misaligned." },
+      { "id": "no45", "text": "You'd make enemies faster than teammates." },
+      { "id": "no46", "text": "Compatibility levels: BELOW ZERO." },
+      { "id": "no47", "text": "Your breakfast preferences suggest you're cosmic enemies." },
+      { "id": "no48", "text": "The quantum foam is actively vibrating away from you both." },
+      { "id": "no49", "text": "Danger-zone team protocol: DO NOT ACTIVATE." },
+      { "id": "no50", "text": "Your collaborative energy would create a black hole." },
+      { "id": "no51", "text": "The database just rejected this pairing with extreme prejudice." },
+      { "id": "no52", "text": "You have a 'run away screaming' aura together." },
+      { "id": "no53", "text": "Your work-life balance philosophies are in a cold war." },
+      { "id": "no54", "text": "This pairing would make a cautionary documentary." },
+      { "id": "no55", "text": "You're not just incompatible—you're dimensionally opposed." },
+      { "id": "no56", "text": "The algorithm suspects you're already nemeses." },
+      { "id": "no57", "text": "Your productivity forecast: APOCALYPTIC." },
+      { "id": "no58", "text": "Communication? You'd need a diplomatic envoy." },
+      { "id": "no59", "text": "Your combined problem-solving approach: unstoppable disaster." },
+      { "id": "no60", "text": "We've run this 1,000 times. Every single time: NO." }
+    ]
+  }
+}

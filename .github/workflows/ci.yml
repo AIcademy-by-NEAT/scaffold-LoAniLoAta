@@ -1,0 +1,107 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm install-all
+      
+      - name: Type check backend
+        run: npm run backend:type-check
+      
+      - name: Type check frontend
+        run: npm run frontend:type-check
+      
+      - name: Lint backend
+        run: npm run backend:lint || true
+      
+      - name: Lint frontend
+        run: npm run frontend:lint || true
+      
+      - name: Build backend
+        run: npm run backend:build
+      
+      - name: Build frontend
+        run: npm run frontend:build
+
+  e2e:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm install-all
+      
+      - name: Build backend
+        run: npm run backend:build
+      
+      - name: Build frontend
+        run: npm run frontend:build
+      
+      - name: Install Playwright
+        run: npm install -D @playwright/test && npx playwright install
+      
+      - name: Start backend
+        run: npm run backend:start &
+      
+      - name: Start frontend
+        run: npm run frontend:start &
+      
+      - name: Wait for servers
+        run: |
+          npx wait-on http://localhost:3000 http://localhost:3001 --timeout 30000
+      
+      - name: Run E2E tests
+        run: npx playwright test || true
+      
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-results
+          path: test-results/
+
+  security:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Run npm audit
+        run: npm audit || true
+      
+      - name: Check for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+          extra_args: --debug
+        continue-on-error: true

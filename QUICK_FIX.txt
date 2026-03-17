@@ -1,0 +1,63 @@
+🎉 TEAM VIBE CHECKER - QUICK FIX CARD
+
+═══════════════════════════════════════════════════════════
+
+🔧 THE FIX (3 SIMPLE STEPS)
+
+1. Clean old installations:
+   rm -r node_modules frontend/node_modules backend/node_modules
+
+2. Reinstall:
+   npm install-all
+
+3. Run:
+   npm run dev
+
+═══════════════════════════════════════════════════════════
+
+✅ WHAT YOU SHOULD SEE
+
+Terminal output like:
+  [0] ▲ Next.js 14.0.3
+  [0]   Local: http://localhost:3000
+  [1] 🚀 Server running on port 3001
+
+═══════════════════════════════════════════════════════════
+
+🌐 WHERE TO GO
+
+Frontend: http://localhost:3000  ← Click here!
+Backend:  http://localhost:3001  (API)
+
+═══════════════════════════════════════════════════════════
+
+❌ STILL NOT WORKING?
+
+Option A: Run separately
+  Terminal 1: cd backend && npm run dev
+  Terminal 2: cd frontend && npm run dev
+
+Option B: Use Windows batch script
+  start.bat
+
+Option C: Check troubleshooting
+  Read: FIX_NPM_RUN_DEV.md
+
+═══════════════════════════════════════════════════════════
+
+📝 WHAT WAS FIXED
+
+✓ Updated root package.json
+✓ Fixed npm scripts (dev, build, test)
+✓ Added tsx to backend (run TypeScript)
+✓ Added helper files (start.bat, docs)
+
+═══════════════════════════════════════════════════════════
+
+🚀 READY TO GO!
+
+Run: npm run dev
+
+Or double-click: start.bat (Windows)
+
+═══════════════════════════════════════════════════════════

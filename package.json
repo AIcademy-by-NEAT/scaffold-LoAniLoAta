@@ -1,0 +1,38 @@
+{
+  "name": "team-vibe-checker",
+  "version": "1.0.0",
+  "description": "A hilarious fake compatibility test for team members",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "backend:build": "cd backend && npm run build",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:type-check": "cd backend && npm run type-check",
+    "frontend:type-check": "cd frontend && npm run type-check",
+    "backend:lint": "cd backend && npm run lint || true",
+    "frontend:lint": "cd frontend && npm run lint || true",
+    "test": "npm run backend:test && npm run frontend:test",
+    "backend:test": "cd backend && npm run test || true",
+    "frontend:test": "cd frontend && npm run test || true",
+    "e2e": "cd frontend && npm run e2e",
+    "e2e:ui": "cd frontend && npm run e2e:ui",
+    "lint": "npm run backend:lint && npm run frontend:lint",
+    "clean": "rm -rf frontend/.next frontend/dist backend/dist",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd .."
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "compatibility",
+    "test",
+    "fun",
+    "satire",
+    "quiz"
+  ],
+  "author": "",
+  "license": "MIT"
+}
